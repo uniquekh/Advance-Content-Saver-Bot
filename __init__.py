@@ -15,12 +15,12 @@ logging.getLogger("telethon").setLevel(logging.WARNING)
 
 
 # variables
-API_ID = config("API_ID", default=None, cast=int)
-API_HASH = config("API_HASH", default=None)
-BOT_TOKEN = config("BOT_TOKEN", default=None)
-SESSION = config("SESSION", default=None)
-FORCESUB = config("FORCESUB", default=None)
-AUTH = config("AUTH", default=None)
+API_ID = config("21233086", default=None, cast=int)
+API_HASH = config("2892db755e485aaf8e55b4b70e8953f6", default=None)
+BOT_TOKEN = config("6749483929:AAEh5WwJFEUDe9DXQ-PsibVdZkavDzZtP0o", default=None)
+SESSION = config("BQFD_b4AbWZBI8YFXZw_NsoqFtpReuRGAjb7boCz76O3entC9nVnrRSg2RwoDTys_wuJsJWLtQdMqp3WTFZ8m6LS6LFGTwvIm4Czclvt8yUBE9NIMQHqtAWJXSYPHZF893NNOQPl2y1sxfp6nFWLUb87sUzPn9kaBekZIbDFcYDPIKtUvJXM1a9PU5qV5qgSIE_OwXzgum9sl3IuPj62-F1dZGo0SLUHH1cxx1V--dG3FojJRsROhDJ4lzz1QOxQXShxuPduWwezf3Rb_rOmk0RVXWRgOxqOGGBZBVUhVkWEX2aewIdmaxBHnBbLNW9nuiQ8y6R4K7pAQlKqx3bL_3DbncEYzAAAAAGnqYHnAA", default=None)
+FORCESUB = config("scammer_ji", default=None)
+AUTH = config("7107871207", default=None)
 SUDO_USERS = []
 
 if len(AUTH) != 0:
